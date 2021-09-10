@@ -109,7 +109,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>ebay-bts</finalName>
+		<finalName>lifted-bts</finalName>
 		
 		<plugins>
 			<plugin>
