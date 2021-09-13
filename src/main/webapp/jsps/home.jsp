@@ -13,7 +13,7 @@
 <h2 align="center"> We support the ebay black friday project.
 	Welcome to Landmark Technologies. The home of days gone have just begun
 	Landmark Technology is a an ideal online training  platform for DevOps and Cloud Engineers. 
-	We offer interview preparations and job assitance.
+	We offer interview preparations and job assitance..
 	The shout of the King is in our midst. His name is JESUS.  HE IS OUR SUCCESS ACCESS KEY</h2>
 <hr>
 <div style="text-align: center;">
