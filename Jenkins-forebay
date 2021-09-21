@@ -3,17 +3,18 @@ node{
   stage('1-Clone') {
     git credentialsId: 'GITHUB-CREDENTIALS', url: 'https://github.com/yggd-millenia/maven-web-application.git'
   }
+  /*
   stage('2-mavenBuild') {
      sh "${mavenHome}/bin/mvn clean package"
   }
   stage('3-CodeQuality') {
      sh "${mavenHome}/bin/mvn sonar:sonar"
   }
-  /*
+  
   stage('4-UploadArticats') {
     sh "${mavenHome}/bin/mvn deploy"
   }
-  */
+  
   stage('5-DeployTomcat') {
     deploy adapters: [tomcat9(credentialsId: 'tomcat', path: '', url: 'http://3.139.67.234:8080')], contextPath: null, war: 'target/*.war'
   }
@@ -29,4 +30,5 @@ node{
   stage('prod-Deploy'){
      deploy adapters: [tomcat9(credentialsId: 'tomcat', path: '', url: 'http://3.22.42.240:8080')], contextPath: null, war: 'target/*.war'
   }
+  */
 }
